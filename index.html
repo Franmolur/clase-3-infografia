@@ -78,12 +78,20 @@
             #veloz{
                 animation: corre 5s normal forwards;
             }
-                        header{
-                background:linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%), url(files/ramas.jpg);
+
+            header{
+                background: linear-gradient(#ccc, #fff);
+                padding-top: 20vh;
+            }
+
+            #ramas{
+                background:linear-gradient(rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 1) 100%), url(files/ramas.jpg);
                 background-size: cover;
-                background-position: center -250px;
+                background-position: center top;
                 background-repeat: no-repeat;
             }
+
+
         </style>
 
         <!--ESTO SERVIRÁ PARA COMPARAR UN ANTES Y UN DESPUÉS-->
@@ -92,15 +100,10 @@
         <title>¡Ahora sumamos JavaScript!</title>
 
         <!--ESTE ES EL ENCABEZADO-->
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-11 col-lg-10 col-xl-9 mx-auto">
-                        <img src="files/ramas.jpg" class="w-100" />
-                    </div>
-                </div>
-            </div>
-        <header class="container">
+    </head>
+    <body>
+        <header class="bg-light">
+        <div class="container" id="ramas">
             <div class="row">
                 <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
                     
